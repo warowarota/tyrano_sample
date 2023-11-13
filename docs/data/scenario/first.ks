@@ -1,45 +1,66 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="恋愛力診断"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「私と仕事どちらがだいじなの!?」[l][r]
 
-メロスは激怒した。[l][r]
+彼女は激怒した。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+毎日毎日仕事ばかりのぼくに彼女は聞いた！[l][r]
 
-(中略)[l][r]
+「私と仕事どちらがだいじなの!?」
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+(しばらくの沈黙・・・)[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+このプロジェクトが成功すれば、ぼくは昇進できるかもしれない。[l][r]
+でも、もちろんのこと彼女のことも大切だ！[l][r]
+葛藤しながらぼくはこう答えた...[l][r]
+
+[link target=*tag_you] →「君に決まってるじゃないか！」 [endlink][r]
+[link target=*tag_work] →「君のために働いているんだよ！」 [endlink][r]
+[link target=*tag_sorry] →「そんなこと考えさせちゃってごめんね・・・」 [endlink][r]
 [s]
 
-*tag_sleep
+*tag_you
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=boxing_sandbag_man.png time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+彼女はさらに怒った。[l][r]
+「だったら私にもっとかまってくれるだろう！うそつき！」[l][r]
+彼女に殴られた。[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
+*tag_work
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+
+[bg storage=figure_oufuku_binta.png time=500]
+
+彼女は少し笑みを浮かべた。しかし！[l][r]
+「そんなありきたりな答えを聞きたいんじゃないんじゃボケ！」
+彼女にビンタされた。[r]
+
+【 bad END 】[l][cm]
+
+[jump target=*start]
+
+*tag_sorry
+
+[cm]
+
+[bg storage=hug_couple.png time=500]
+
+彼女は泣き出した。[l][r]
+「私の気持ちをわかってくれて」[l][r]
+彼女にはぐされた。[r]
 
 【 GOOD END 】[l][cm]
 
